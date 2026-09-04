@@ -8,7 +8,7 @@
   </p>
 
   <p>
-    <a href="https://t.me/Livelongevity"><img src="https://img.shields.io/badge/Telegram-Bog'lanish-blue?style=for-the-badge&logo=telegram"></a>
+    <a href="https://t.me/IslomFargniy"><img src="https://img.shields.io/badge/Telegram-Bog'lanish-blue?style=for-the-badge&logo=telegram"></a>
     <a href="https://www.instagram.com/siriussoft.uz"><img src="https://img.shields.io/badge/Instagram-Sirius_Soft-E4405F?style=for-the-badge&logo=instagram"></a>
     <img src="https://img.shields.io/badge/Made%20by-Sirius%20Innovation-purple?style=for-the-badge">
   </p>
