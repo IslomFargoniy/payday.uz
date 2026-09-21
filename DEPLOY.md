@@ -12,28 +12,24 @@ Ushbu qo'llanmada **`payday.uz`** (Landing sahifa) va **`panel.payday.uz`** (Bos
 
 1. **Serverga SSH orqali ulanish:**
    ```bash
-   ssh root@SERVER_IP
-   # yoki
-   ssh user@SERVER_IP
+   ssh younine@193.180.213.188
    ```
 
-2. **Loyihani serverga klonlash (agar hali klonlanmagan bo'lsa):**
+2. **Loyiha papkasiga o'tish:**
    ```bash
-   mkdir -p /var/www/payday.uz
-   cd /var/www/payday.uz
-   git clone git@github.com:IslomFargoniy/payday.uz.git .
+   cd /var/www/payday_uz_usr/data/www/payday.uz
    ```
 
 3. **Yangi o'zgarishlarni yuklab olish (Update):**
    ```bash
-   cd /var/www/payday.uz
-   git pull origin main
+   sudo git pull origin main
    ```
 
 4. **Fayllar ruxsatlarini to'g'rilash:**
    ```bash
-   chown -R www-data:www-data /var/www/payday.uz
-   chmod -R 755 /var/www/payday.uz
+   sudo chown -R payday_uz_usr:payday_uz_usr /var/www/payday_uz_usr/data/www/payday.uz
+   sudo chmod -R 755 /var/www/payday_uz_usr/data/www/payday.uz
+   ```
    ```
 
 ---
