@@ -33,10 +33,46 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/payday/big-payday.png">
   <link rel="apple-touch-icon" href="images/payday/big-payday.png">
-  <meta name="theme-color" content="#070B14">
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/main.css">
+  <!-- Stylesheets with Cache Buster -->
+  <link rel="stylesheet" href="css/main.css?v=2.2.0">
+
+  <!-- Critical Base Inline Styles to prevent unstyled flash -->
+  <style>
+    :root {
+      --color-bg: #070B14;
+      --color-text-main: #F8FAFC;
+    }
+    html, body {
+      background-color: #070B14 !important;
+      color: #F8FAFC !important;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 18px 0;
+      background: rgba(7, 11, 20, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .logo-img {
+      height: 40px !important;
+      width: auto !important;
+      max-height: 40px !important;
+      object-fit: contain;
+    }
+  </style>
 
   <!-- Schema.org JSON-LD Structured Data for Rich Search Results -->
   <script type="application/ld+json">
@@ -1206,7 +1242,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=2.2.0"></script>
 
 </body>
 </html>
